@@ -1,4 +1,4 @@
-import MovieCard from "../components/movieCard";
+import MovieCard from "@/app/components/movieCard.jsx";
 import getMoviesInfo from "../lib/getMoviesInfo";
 import styles from "../styles/common.module.css";
 

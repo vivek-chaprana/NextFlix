@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const MovieCard = (movie) => {
 
-  const { id, type, title, synopsis } = movie.jawSummary;
+  const { id, title, synopsis } = movie.jawSummary;
   return (
     <div className={styles.card}>
       <div className={styles.card_image}>
@@ -25,4 +25,4 @@ const MovieCard = (movie) => {
   )
 }
 
-export default MovieCard
+export default MovieCard;
